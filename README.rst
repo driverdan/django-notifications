@@ -311,6 +311,7 @@ How to use:
    #. ``fetch`` (default ``5``) - How many notifications to fetch each time.
    #. ``callbacks`` (default ``<empty string>``) - A comma-separated list of javascript functions to call each period.
    #. ``api_name`` (default ``list``) - The name of the API to call (this can be either ``list`` or ``count``).
+   #. ``mark_as_read`` (default ``False``) - Marks notifications as read when fetched.
 
 3. To insert a live-updating unread count, use the following template::
 
